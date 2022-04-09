@@ -1,0 +1,23 @@
+footer{
+    text-align: center;
+    background-color: #3c3c3b;
+    padding: 60px;
+    color: white;
+    margin-top: 50px;
+}
+
+.social-media{
+    margin-top: 20px;
+}
+
+.social-media a i{
+    background: #50504f;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1.4rem;
+    height: 50px;
+    line-height: 2.30;
+    margin: 0 10px;
+    text-decoration: none;
+    width: 50px;
+}

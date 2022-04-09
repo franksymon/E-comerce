@@ -1,0 +1,97 @@
+.category-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    padding: 20px;
+    z-index: 20;
+    width: 300px;
+    transform: translateX(300px);
+    transition: 1s;
+    color: var(--title-color);
+}
+
+.category-open{
+    transform: translateX(0);
+}
+
+
+
+/*************** Preci *******************/
+
+.btn-close{
+    background: transparent;
+    display: block;
+    font-size: 1.3rem;
+    margin: 0 0 15px auto;
+    border: none;
+   
+}
+
+.title-filter-category{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--light-gray);
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.title-filter-category button{
+    background: transparent;
+    font-size: 1rem;
+    border: none;
+}
+
+.input-conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.input-conteiner label{
+    font-size: 15px;
+}
+
+.input-conteiner input{
+    border: 1px solid var(--light-gray);
+    border-radius: 3px;
+    display: block;
+    font-size: 1rem;
+    padding: 6px 10px;
+    width: 80%;
+    outline: none;
+}
+
+.btn-filter-preci {
+    background: var(--primary);
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    margin: 25px 0 20px auto;
+    padding: 8px 15px;
+    border: none;
+}
+
+/*************** Category *******************/
+
+.filter-category-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-category-items button{
+    margin-top: 20px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color: var(--title-color);
+    font-size: 15px;
+}

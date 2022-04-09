@@ -1,0 +1,36 @@
+.purchase{
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 990px;
+}
+
+
+.purchase-ruta{
+    display:  flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.purchase-container{
+    margin-top: 30px;
+}
+
+.purchase-container li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.purchase-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.purchase-info small{
+    text-align: center;
+}
+
+.purchase-preci{
+    text-align: end;
+}

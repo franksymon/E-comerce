@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #f85555;
+  --light-gray: #dcd9d9;
+  --gray: #c7c7c7;
+  --dark-gray: #4f4f4f;
+  --text-gray: #ababab;
+  --border: 1px solid var(--light-gray);
+  --title-color:#515151;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  /* background-color: #282c34;
+  color: white; */
+  font-family: Yantramanav,sans-serif; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+img{
+  max-width: 100%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  cursor: pointer;
+}
+
+/************** Utilitis *****************/
+
+.section-container{
+  max-width: 1024px;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 0 1rem;
 }
