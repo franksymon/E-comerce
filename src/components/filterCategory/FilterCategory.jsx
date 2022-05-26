@@ -12,7 +12,7 @@ const FilterCategory = ({isOpenCategory,setIsOpenCategory}) => {
 
     const filterPreci = (e) =>{
         e.preventDefault();
-        console.log("me hice submit")
+        //console.log("me hice submit")
     }
 
 
